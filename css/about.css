@@ -1,0 +1,25 @@
+.site-about{
+    text-align: center;
+}
+
+.site-about h2{
+    text-transform: uppercase;
+}
+
+.site-about h2::after {
+    content: "";
+    display: block;       
+    width: 3.5vw;          
+    height: 5px;          
+    background-color: red;
+    margin: 0 auto;
+    margin-top: 0.3em;
+    border-radius: 5px;
+   
+}
+.site-about p{
+    width: 80vw;
+    margin: 0 auto;
+    padding: 0px;
+    margin-top: 3em;
+}
