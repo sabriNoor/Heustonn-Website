@@ -37,29 +37,7 @@
     margin-top: 10px;
 }
 
-.site-home__read-more a{
-    text-decoration: none;
-    color: black;
-}
 
-.site-home__read-more a:hover{
-    color: red;
-}
-
-.site-home__read-more {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-}
-
-.site-home__read-more::after {
-  content: "";
-  display: block;       
-  width: 7vw;          
-  height: 1px;          
-  background-color: black;
-  align-self: flex-start;
-}
 
 .site-home__buttons img {
     width: 24px;

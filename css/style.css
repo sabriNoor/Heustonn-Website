@@ -6,3 +6,44 @@ body {
 main{
     margin: 0 auto;
 }
+
+.section-title {
+    text-transform: uppercase;
+}
+
+.section-title::after {
+    content: "";
+    display: block;       
+    width: 3.5vw;          
+    height: 5px;          
+    background-color: red;
+    margin: 0 auto;
+    margin-top: 0.3em;
+    border-radius: 5px;
+   
+}
+
+
+.read-more a{
+    text-decoration: none;
+    color: black;
+}
+
+.read-more a:hover{
+    color: red;
+}
+
+.read-more {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.read-more::after {
+  content: "";
+  display: block;       
+  width: 7vw;          
+  height: 1px;          
+  background-color: black;
+  align-self: flex-start;
+}
