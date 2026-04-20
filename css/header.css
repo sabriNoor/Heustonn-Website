@@ -77,3 +77,25 @@ a:visited,a:hover,a:active,a:link, a:focus {
     border: none;
     border-bottom: 1px solid white;
 }
+
+.site-header__toggle{
+    display: none;
+}
+.site-header__toggle img{
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+}
+
+
+@media screen and (max-width: 900px) {
+    .site-header__nav{
+        display: none;
+    }
+    .site-header__search{
+        display: none;
+    }
+    .site-header__toggle{
+        display: block;
+    }
+}
