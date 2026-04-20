@@ -1,0 +1,35 @@
+.site-feedback{
+    margin: 4em;
+    text-align: center;
+}
+.site-feedback__card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid gray;
+    width: 40vw;
+    margin: 0 auto;
+    padding: 3em;
+}
+.site-feedback__customer{
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    margin-top: 2em;
+}
+.site-feedback__customer img{
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+}
+.site-feedback__customer-info{
+    text-align: left;
+}
+.site-feedback__customer-info h3{
+    margin: 0;
+}
+.site-feedback__customer-info p{
+    margin: 0;
+    color: red;
+}
