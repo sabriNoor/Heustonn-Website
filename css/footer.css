@@ -1,0 +1,70 @@
+.site-footer{
+    background-color: red;
+    color: white;  
+    padding: 2em; 
+}
+
+.site-footer h2:not(.site-footer__logo){
+    text-transform: uppercase;
+}
+
+.site-footer__container{
+    display: grid;
+    grid-template-columns: repeat(4, 250px);
+    grid-gap: 2em;
+    align-items: center;
+    justify-content: center;  
+}
+
+.site-footer__info h2::after{
+    content: "";
+    display: block;       
+    width: 100%;          
+    height: 1px;          
+    background-color: white;
+    margin-top: 0.5em;
+}
+
+.site-footer__contact img{
+    width: 16px;
+    height: 16px;
+    margin-right: 0.5em;
+}
+
+.site-footer__contact-description{
+    display: inline;
+    font-size: .9em;
+}
+
+.site-footer__contact-title{
+    color: black;
+}
+
+.site-footer__social img{
+    width: 24px;
+    height: 24px;
+}
+
+.site-footer__navigation{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.site-footer__navigation ul  {
+    padding: 0;
+    list-style-position: inside;
+}
+
+
+.site-footer a{
+    text-decoration: none;
+    color: white;
+    padding: 0;
+}
+.site-footer__discover ul{
+    padding: 0;
+    list-style-position: inside;
+    list-style: none;
+}
+
