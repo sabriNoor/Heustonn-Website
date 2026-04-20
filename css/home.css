@@ -36,7 +36,10 @@
     align-items: center;
     margin-top: 10px;
 }
-
+.site-home__buttons button{
+    background-color: transparent;
+    border: none;
+}
 .site-home__buttons img {
     width: 24px;
     height: 24px;
