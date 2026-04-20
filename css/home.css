@@ -10,12 +10,11 @@
 }
 
 .site-home__slide-image{
-    width: 50vw;
-    height: 100%;
+    width: 40%;
 }
 
 .site-home__caption{
-    width: 50vw;
+    width: 40%;
 }
 
 .site-home__caption h2{
@@ -38,11 +37,19 @@
     margin-top: 10px;
 }
 
-
-
 .site-home__buttons img {
     width: 24px;
     height: 24px;
     margin-left: 2em;
 }
+@media screen and (max-width: 767px){
 
+    .site-home__slide-image{
+        width: 100%;
+    }
+
+    .site-home__caption{
+        width: 100%;
+    }
+    
+}
