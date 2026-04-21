@@ -43,14 +43,11 @@ a:visited,a:hover,a:active,a:link, a:focus {
 
 .site-header__nav ul li a::after {
   content: "";
-  position: relative;
   display: block;
   height: 2px;
   width: 0px;
   background-color: red;
-  left: 50%;
-  bottom: -0.3em;
-  transform: translateX(-50%);
+  margin: 0 auto;
 }
 
 .site-header__nav ul li a:hover::after {
