@@ -38,18 +38,19 @@ a:visited,a:hover,a:active,a:link, a:focus {
     text-decoration: none;
 }
 .site-header__nav ul li a {
-  position: relative;
   text-decoration: none;
 }
 
 .site-header__nav ul li a::after {
   content: "";
-  position: absolute;
+  position: relative;
+  display: block;
+  height: 2px;
+  width: 0px;
+  background-color: red;
   left: 50%;
   bottom: -0.3em;
   transform: translateX(-50%);
-  width: 0;
-  border-bottom: 2px solid red;
 }
 
 .site-header__nav ul li a:hover::after {
