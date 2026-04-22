@@ -6,11 +6,15 @@
     background-color: rgb(255, 0, 0);
     color: white;  
     padding: 2em 10em; 
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-gap: 2em;
+    display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;  
+    gap: 2em;
+}
+
+.site-footer__container > div{
+    flex-basis: 250px;
 }
 
 .site-footer__info h2::after{
@@ -62,23 +66,8 @@
     text-align: center;
 }
 
-@media screen and (max-width: 900px){
-
-    .site-footer__container{
-       grid-template-columns: repeat(2, 1fr);
-       padding: 2em 5em; 
-    }
-    
-}
-
 @media screen and (max-width: 767px){
 
-    .site-footer__container{
-       grid-template-columns: repeat(1, 1fr);
-       padding: 2em;
-      
-    }
-   
    .site-footer__discover,.site-footer__contact,.site-footer__navigation,.site-footer__info{
     text-align: center;
    }
