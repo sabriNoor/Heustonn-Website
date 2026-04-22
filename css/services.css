@@ -35,19 +35,18 @@
     position: relative;
     top:5em;
 }
-#serviceReadmoreContainer{
+.site-services__readmore{
     justify-content: center;
     margin: 2em auto;
     margin-top: 7em;
 }
 
-#serviceReadmoreContainer::after{
+.site-services__readmore::after{
     background-color: white;
 }
 
-
-#serviceReadmore{
-    color: white;
+.site-services__readmore a{
+    color: white !important;
 }
 
 @media screen and (max-width: 767px) {
