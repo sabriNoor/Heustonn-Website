@@ -17,12 +17,13 @@
     width: 40%;
 }
 
-.site-home__caption h2{
+.site-home__title{
     font-size:  3em ;
+    font-weight: bold;
     margin-bottom: 0.3em;
 }
 
-.site-home__caption h2 span{
+.site-home__title--red{
     color: red;
 }
 
